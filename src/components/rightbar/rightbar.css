@@ -17,3 +17,45 @@
     display: flex;
     align-items: center;
 }
+.rightbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+.rightbarTitle{
+    margin-bottom: 15px;
+}
+.rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.rightbarProfileImgContainer{
+    position: relative;
+    margin-right: 10px;
+}
+.rightbarProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.rightbarOnline{
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #32CD32;
+    position: absolute;
+    top: -3;
+    right: 0;
+    border: 2px solid #fff;
+}
+.rightbarUsername{
+    font-size: 11px;
+    font-weight: 500;
+}
